@@ -15,6 +15,7 @@
 		57303E5A2236D7C5001BC937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57303E582236D7C5001BC937 /* LaunchScreen.storyboard */; };
 		57303E652236D7C5001BC937 /* MyFirstDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57303E642236D7C5001BC937 /* MyFirstDrawerTests.swift */; };
 		57303E702236D7C5001BC937 /* MyFirstDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57303E6F2236D7C5001BC937 /* MyFirstDrawerUITests.swift */; };
+		57C1D0F8224519B800513E9E /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1D0F7224519B800513E9E /* Canvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		57303E6B2236D7C5001BC937 /* MyFirstDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57303E6F2236D7C5001BC937 /* MyFirstDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstDrawerUITests.swift; sourceTree = "<group>"; };
 		57303E712236D7C5001BC937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C1D0F7224519B800513E9E /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,9 @@
 		57303E4B2236D7BF001BC937 /* MyFirstDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				57C1D0F922451A4400513E9E /* Controller */,
+				57C1D0F6224519A400513E9E /* View */,
 				57303E4C2236D7BF001BC937 /* AppDelegate.swift */,
-				57303E4E2236D7BF001BC937 /* ViewController.swift */,
 				57303E502236D7BF001BC937 /* Main.storyboard */,
 				57303E562236D7C5001BC937 /* Assets.xcassets */,
 				57303E582236D7C5001BC937 /* LaunchScreen.storyboard */,
@@ -126,6 +129,22 @@
 				57303E712236D7C5001BC937 /* Info.plist */,
 			);
 			path = MyFirstDrawerUITests;
+			sourceTree = "<group>";
+		};
+		57C1D0F6224519A400513E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57C1D0F7224519B800513E9E /* Canvas.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57C1D0F922451A4400513E9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57303E4E2236D7BF001BC937 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +281,7 @@
 				57303E4F2236D7BF001BC937 /* ViewController.swift in Sources */,
 				57303E4D2236D7BF001BC937 /* AppDelegate.swift in Sources */,
 				57303E552236D7BF001BC937 /* MyFirstDrawer.xcdatamodeld in Sources */,
+				57C1D0F8224519B800513E9E /* Canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +456,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F36LJ5VF5;
 				INFOPLIST_FILE = MyFirstDrawer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nevercute.pro.MyFirstDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,7 +476,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F36LJ5VF5;
 				INFOPLIST_FILE = MyFirstDrawer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nevercute.pro.MyFirstDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
