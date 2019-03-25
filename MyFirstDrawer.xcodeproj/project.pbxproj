@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571E305322481C13002D2039 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E305222481C13002D2039 /* Line.swift */; };
 		57303E4D2236D7BF001BC937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57303E4C2236D7BF001BC937 /* AppDelegate.swift */; };
 		57303E4F2236D7BF001BC937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57303E4E2236D7BF001BC937 /* ViewController.swift */; };
 		57303E522236D7BF001BC937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57303E502236D7BF001BC937 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571E305222481C13002D2039 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		57303E492236D7BF001BC937 /* MyFirstDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57303E4C2236D7BF001BC937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57303E4E2236D7BF001BC937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		571E305122481BF4002D2039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				571E305222481C13002D2039 /* Line.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		57303E402236D7BF001BC937 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		57303E4B2236D7BF001BC937 /* MyFirstDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				571E305122481BF4002D2039 /* Model */,
 				57C1D0F922451A4400513E9E /* Controller */,
 				57C1D0F6224519A400513E9E /* View */,
 				57303E4C2236D7BF001BC937 /* AppDelegate.swift */,
@@ -282,6 +293,7 @@
 				57303E4D2236D7BF001BC937 /* AppDelegate.swift in Sources */,
 				57303E552236D7BF001BC937 /* MyFirstDrawer.xcdatamodeld in Sources */,
 				57C1D0F8224519B800513E9E /* Canvas.swift in Sources */,
+				571E305322481C13002D2039 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
